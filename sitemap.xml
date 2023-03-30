@@ -200,7 +200,7 @@
 
   
   <url>
-    <loc>https://www.dreamfish.cc/tags/jupyter/</loc>
+    <loc>https://www.dreamfish.cc/tags/typora/</loc>
     <lastmod>2023-03-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -214,7 +214,7 @@
   </url>
   
   <url>
-    <loc>https://www.dreamfish.cc/tags/mysql/</loc>
+    <loc>https://www.dreamfish.cc/tags/git/</loc>
     <lastmod>2023-03-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -235,14 +235,14 @@
   </url>
   
   <url>
-    <loc>https://www.dreamfish.cc/tags/typora/</loc>
+    <loc>https://www.dreamfish.cc/tags/jupyter/</loc>
     <lastmod>2023-03-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.dreamfish.cc/tags/git/</loc>
+    <loc>https://www.dreamfish.cc/tags/mysql/</loc>
     <lastmod>2023-03-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
