@@ -151,4 +151,4 @@ artitalk:
         fanu: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/fanu.png"
       pageSize: 7
     front_matter:
-      comments: 'false'
+      comments: false
