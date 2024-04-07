@@ -21,6 +21,7 @@ menu:
     书籍: /book/ || fas fa-book
     壁纸: /wallpaper/ || fas fa-image
     电影: /movie/ || fas fa-video
+  树洞: /artitalk/ || fa fa-comments
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-fish
 

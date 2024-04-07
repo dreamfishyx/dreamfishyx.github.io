@@ -126,3 +126,29 @@ feed:
 aplayer:
   meting: true
   asset_inject: false
+
+artitalk:
+    enable: true
+    appId: TLDc9eD2s9EBERu9vooTVSyR-MdYXbMMI
+    appKey: jKiscAw16nG6KjyuHVFkiNYb
+    path: 
+    js: https://cdn.jsdelivr.net/npm/artitalk
+    option:
+      avatarPla: 'https://cdn.jsdelivr.net/gh/dreamfishyx/pictures@main/img/2024-04-06-16-47-19-d291bc.jpg'
+      shuoPla: "说点什么吧~"
+      atEmoji: 
+        baiyan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/baiyan.png"
+        bishi: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bishi.png"
+        bizui: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bizui.png"
+        chan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/chan.png"
+        daku: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/daku.png"
+        dalao: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dalao.png"
+        dalian: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dalian.png"
+        dianzan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dianzan.png"
+        doge: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/doge.png"
+        facai: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/facai.png"
+        fadai: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/fadai.png"
+        fanu: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/fanu.png"
+      pageSize: 7
+    front_matter:
+      comments: 'false'
