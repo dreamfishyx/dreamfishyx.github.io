@@ -122,3 +122,7 @@ feed:
   icon: icon.png
   autodiscovery: true
   template:
+
+aplayer:
+  meting: true
+  asset_inject: false
