@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://dreamfish.cc/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -152,3 +152,9 @@ artitalk:
       pageSize: 7
     front_matter:
       comments: false
+
+sitemap:
+  path: sitemap.xml
+
+baidusitemap:
+  path: baidusitemap.xml
