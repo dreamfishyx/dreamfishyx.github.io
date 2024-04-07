@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.dreamfish.cc/2024/04/06/hello-world/</loc>
+    <loc>https://dreamfish.cc/2024/04/07/windows%E5%92%8Cwsl%E7%BE%8E%E5%8C%96/</loc>
+    <lastmod>2024-04-07T13:45:24.763Z</lastmod>
+  </url>  <url>
+    <loc>https://dreamfish.cc/2024/04/07/wsl%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2024-04-07T13:41:30.052Z</lastmod>
+  </url>  <url>
+    <loc>https://dreamfish.cc/2024/04/06/hello-world/</loc>
     <lastmod>2024-04-06T08:07:33.040Z</lastmod>
   </url>
 </urlset>

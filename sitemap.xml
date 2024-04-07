@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.dreamfish.cc/artitalk/index.html</loc>
+    <loc>https://dreamfish.cc/2024/04/07/windows%E5%92%8Cwsl%E7%BE%8E%E5%8C%96/</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://www.dreamfish.cc/music/index.html</loc>
+    <loc>https://dreamfish.cc/2024/04/07/wsl%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE/</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://www.dreamfish.cc/wallpaper/paper.html</loc>
+    <loc>https://dreamfish.cc/about/index.html</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://www.dreamfish.cc/wallpaper/life.html</loc>
+    <loc>https://dreamfish.cc/artitalk/index.html</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://www.dreamfish.cc/wallpaper/index.html</loc>
+    <loc>https://dreamfish.cc/music/index.html</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://www.dreamfish.cc/book/index.html</loc>
+    <loc>https://dreamfish.cc/wallpaper/paper.html</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://www.dreamfish.cc/movie/index.html</loc>
+    <loc>https://dreamfish.cc/wallpaper/life.html</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -65,7 +65,34 @@
   </url>
   
   <url>
-    <loc>https://www.dreamfish.cc/about/index.html</loc>
+    <loc>https://dreamfish.cc/wallpaper/index.html</loc>
+    
+    <lastmod>2024-04-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dreamfish.cc/book/index.html</loc>
+    
+    <lastmod>2024-04-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dreamfish.cc/movie/index.html</loc>
+    
+    <lastmod>2024-04-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dreamfish.cc/link/index.html</loc>
     
     <lastmod>2024-04-06</lastmod>
     
@@ -74,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://www.dreamfish.cc/link/index.html</loc>
+    <loc>https://dreamfish.cc/categories/index.html</loc>
     
     <lastmod>2024-04-06</lastmod>
     
@@ -83,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://www.dreamfish.cc/categories/index.html</loc>
+    <loc>https://dreamfish.cc/tags/index.html</loc>
     
     <lastmod>2024-04-06</lastmod>
     
@@ -92,16 +119,7 @@
   </url>
   
   <url>
-    <loc>https://www.dreamfish.cc/tags/index.html</loc>
-    
-    <lastmod>2024-04-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.dreamfish.cc/2024/04/06/hello-world/</loc>
+    <loc>https://dreamfish.cc/2024/04/06/hello-world/</loc>
     
     <lastmod>2024-04-06</lastmod>
     
@@ -111,13 +129,41 @@
   
 
   <url>
-    <loc>https://www.dreamfish.cc/</loc>
+    <loc>https://dreamfish.cc/</loc>
     <lastmod>2024-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
+  <url>
+    <loc>https://dreamfish.cc/tags/linux/</loc>
+    <lastmod>2024-04-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://dreamfish.cc/tags/window/</loc>
+    <lastmod>2024-04-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://dreamfish.cc/tags/wsl/</loc>
+    <lastmod>2024-04-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://dreamfish.cc/categories/%E6%A2%A6%E9%B1%BC%E7%9A%84%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2024-04-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>

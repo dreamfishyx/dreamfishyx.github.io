@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Dreamfish</title>
-  <icon>https://www.dreamfish.cc/icon.png</icon>
+  <icon>https://dreamfish.cc/icon.png</icon>
   
-  <link href="https://www.dreamfish.cc/atom.xml" rel="self"/>
+  <link href="https://dreamfish.cc/atom.xml" rel="self"/>
   
-  <link href="https://www.dreamfish.cc/"/>
-  <updated>2024-04-06T08:07:33.040Z</updated>
-  <id>https://www.dreamfish.cc/</id>
+  <link href="https://dreamfish.cc/"/>
+  <updated>2024-04-07T13:45:24.763Z</updated>
+  <id>https://dreamfish.cc/</id>
   
   <author>
     <name>梦鱼</name>
@@ -17,9 +17,53 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>windows和wsl美化</title>
+    <link href="https://dreamfish.cc/2024/04/07/windows%E5%92%8Cwsl%E7%BE%8E%E5%8C%96/"/>
+    <id>https://dreamfish.cc/2024/04/07/windows%E5%92%8Cwsl%E7%BE%8E%E5%8C%96/</id>
+    <published>2024-04-07T13:40:14.000Z</published>
+    <updated>2024-04-07T13:45:24.763Z</updated>
+    
+    
+    <summary type="html">关于windows中wsl的美化设置。</summary>
+    
+    
+    
+    <category term="梦鱼的笔记" scheme="https://dreamfish.cc/categories/%E6%A2%A6%E9%B1%BC%E7%9A%84%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="linux" scheme="https://dreamfish.cc/tags/linux/"/>
+    
+    <category term="window" scheme="https://dreamfish.cc/tags/window/"/>
+    
+    <category term="wsl" scheme="https://dreamfish.cc/tags/wsl/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>wsl的安装和配置</title>
+    <link href="https://dreamfish.cc/2024/04/07/wsl%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE/"/>
+    <id>https://dreamfish.cc/2024/04/07/wsl%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE/</id>
+    <published>2024-04-07T13:30:27.000Z</published>
+    <updated>2024-04-07T13:41:30.052Z</updated>
+    
+    
+    <summary type="html">关于windows中wsl的安装和配置的一些笔记、出现问题的记录。</summary>
+    
+    
+    
+    <category term="梦鱼的笔记" scheme="https://dreamfish.cc/categories/%E6%A2%A6%E9%B1%BC%E7%9A%84%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="linux" scheme="https://dreamfish.cc/tags/linux/"/>
+    
+    <category term="wsl" scheme="https://dreamfish.cc/tags/wsl/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="https://www.dreamfish.cc/2024/04/06/hello-world/"/>
-    <id>https://www.dreamfish.cc/2024/04/06/hello-world/</id>
+    <link href="https://dreamfish.cc/2024/04/06/hello-world/"/>
+    <id>https://dreamfish.cc/2024/04/06/hello-world/</id>
     <published>2024-04-06T08:07:33.040Z</published>
     <updated>2024-04-06T08:07:33.040Z</updated>
     
