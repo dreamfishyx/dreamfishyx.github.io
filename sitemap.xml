@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dreamfish.cc/wallpaper/paper.html</loc>
+    
+    <lastmod>2024-04-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://dreamfish.cc/2024/04/07/windows%E5%92%8Cwsl%E7%BE%8E%E5%8C%96/</loc>
     
     <lastmod>2024-04-07</lastmod>
@@ -39,15 +48,6 @@
   
   <url>
     <loc>https://dreamfish.cc/music/index.html</loc>
-    
-    <lastmod>2024-04-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://dreamfish.cc/wallpaper/paper.html</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -130,7 +130,7 @@
 
   <url>
     <loc>https://dreamfish.cc/</loc>
-    <lastmod>2024-04-07</lastmod>
+    <lastmod>2024-04-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -138,21 +138,21 @@
   
   <url>
     <loc>https://dreamfish.cc/tags/linux/</loc>
-    <lastmod>2024-04-07</lastmod>
+    <lastmod>2024-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://dreamfish.cc/tags/window/</loc>
-    <lastmod>2024-04-07</lastmod>
+    <lastmod>2024-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://dreamfish.cc/tags/wsl/</loc>
-    <lastmod>2024-04-07</lastmod>
+    <lastmod>2024-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -161,7 +161,7 @@
   
   <url>
     <loc>https://dreamfish.cc/categories/%E6%A2%A6%E9%B1%BC%E7%9A%84%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2024-04-07</lastmod>
+    <lastmod>2024-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
