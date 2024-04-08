@@ -167,6 +167,8 @@ live2d:
 	display: 
 		position: right  
 		width: 150       
-		height: 300      
+		height: 300  
+    hOffset: 10 
+    vOffset: 300   
 	mobile: 
 		show: false      
