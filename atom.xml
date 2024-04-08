@@ -33,9 +33,9 @@
     
     <category term="linux" scheme="https://dreamfish.cc/tags/linux/"/>
     
-    <category term="window" scheme="https://dreamfish.cc/tags/window/"/>
-    
     <category term="wsl" scheme="https://dreamfish.cc/tags/wsl/"/>
+    
+    <category term="window" scheme="https://dreamfish.cc/tags/window/"/>
     
   </entry>
   
