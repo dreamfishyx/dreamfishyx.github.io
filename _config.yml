@@ -5,7 +5,7 @@
 # Site
 title: Dreamfish
 subtitle: ''
-description: '人生天地间，忽如远行客。'
+description: '人生天地间，忽如远行宀�?'
 keywords: 
 author: 梦鱼
 language: zh-CN
@@ -132,7 +132,7 @@ artitalk:
     appId: TLDc9eD2s9EBERu9vooTVSyR-MdYXbMMI
     appKey: jKiscAw16nG6KjyuHVFkiNYb
     path: 
-    js: https://cdn.jsdelivr.net/npm/artitalk
+    js: https://cdn.jsdelivr.net/gh/dreamfishyx/mycdn/js/artitalk.js
     option:
       avatarPla: 'https://cdn.jsdelivr.net/gh/dreamfishyx/pictures@main/img/2024-04-06-16-47-19-d291bc.jpg'
       shuoPla: "说点什么吧~"

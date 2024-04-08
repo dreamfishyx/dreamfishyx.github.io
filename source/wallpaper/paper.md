@@ -4,7 +4,7 @@ date: 2024-04-07 13:03:27
 type: 'paper'
 ---
 {% note warning simple %}
-图片来源于网络，请勿用于商业用途。
+图片来源于网络，请勿作为商业用途。
 {% endnote %}
 
 {% gallery true,220,10 %}
