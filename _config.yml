@@ -158,3 +158,15 @@ sitemap:
 
 baidusitemap:
   path: baidusitemap.xml
+
+live2d:
+	enable: true
+	scriptFrom: local
+	model: 
+		use: live2d-widget-model-shizuku 
+	display: 
+		position: right  
+		width: 150       
+		height: 300      
+	mobile: 
+		show: false      
