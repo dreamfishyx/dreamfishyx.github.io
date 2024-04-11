@@ -31,9 +31,9 @@ categories: 梦鱼的笔记
 ##### 启用WSL
 
 1.   启用WSL，可以通过管理员运行powershell，运行命令`dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`。但是不建议采用这种方式。后面似乎无法安装GUI。
-2.   打开控制面板，选择程序后，选择启动或者关闭windows功能。<br><img src="/assets/image-20230522082234657.png" alt="image-20230522082234657" style="zoom:80%;border:1px solid black;border-radius:10px" align="left"/>
-3.   勾选适用于Linux的windows子系统和虚拟机平台，等待完成。之后会提醒重启，按要求重启更新即可。<br><img src="/assets/image-20230522082406033.png" alt="image-20230522082406033" style="zoom:80%;border:1px solid black;border-radius:10px" align="left"/>
-4.   打开windows设置，搜索开发者选项，勾选开发者模式。为之后的`ubuntu`安装程序做好配置。<br><img src="/assets/image-20230522083520354.png" alt="image-20230522083520354" style="zoom:80%;border:1px solid black;border-radius:10px;" align="left"/>
+2.   打开控制面板，选择程序后，选择启动或者关闭windows功能。<br><img src="/assets/image-20230522082234657.png" alt="image-20230522082234657" style="zoom:80%;border:1px solid black;border-radius:10px" />
+3.   勾选适用于Linux的windows子系统和虚拟机平台，等待完成。之后会提醒重启，按要求重启更新即可。<br><img src="/assets/image-20230522082406033.png" alt="image-20230522082406033" style="zoom:80%;border:1px solid black;border-radius:10px" />
+4.   打开windows设置，搜索开发者选项，勾选开发者模式。为之后的`ubuntu`安装程序做好配置。<br><img src="/assets/image-20230522083520354.png" alt="image-20230522083520354" style="zoom:80%;border:1px solid black;border-radius:10px;" />
 
 ---
 
@@ -41,13 +41,13 @@ categories: 梦鱼的笔记
 
 ##### 安装WLS和ubuntu。
 
-1.   当然，你可以直接去微软商店搜索`ubuntu`，下载`ubuntu`的即可。但是我们不采用这种方式。<br><img src="/assets/image-20230522084244743.png" alt="image-20230522084244743" style="zoom:67%;border:1px solid black;border-radius:10px" align="left"/>
+1.   当然，你可以直接去微软商店搜索`ubuntu`，下载`ubuntu`的即可。但是我们不采用这种方式。<br><img src="/assets/image-20230522084244743.png" alt="image-20230522084244743" style="zoom:67%;border:1px solid black;border-radius:10px" />
 2.   windows11已经简化了WLS安装方式，可以简单地用管理员权限打开一个命令提示符窗口，运行`wsl.exe --install`。一旦你点击回车键，这个过程将自动启用 `WSL `所需的可选功能，默认安装`Ubuntu`发行版，并在你的设备上安装最新的 `WSL Linux `内核版本。当它完成后，重新启动你设备，发行版会在你再次启动后启动，完成安装。但是我们也不采用这种方式。
 3.   我们采取如下方式安装：
 4.   管理员权限下，使用`cmd`运行命令`wsl --status`查看默认版本，由于后面安装GUI，所以推荐使用WSL2。可以使用`wsl --set-default-version 2`设置WSL版本。
 5.   你需要运行`wsl --update`更新WSL，此外也你可以使用 `wsl --update rollback `来回滚到之前的WSL内核版本。
-6.   `wsl --list --online`查看可安装的Linux发行版。这里提一下，不带版本号的`ubuntu`可以更新更高版本，带版本号的不能更新到更高版本。<br><img src="/assets/image-20230522085754623.png" alt="image-20230522085754623" style="zoom:80%;border:1px solid black;border-radius:10px" align="left"/>
-7.   运行`wsl --install <DistroName>`安装Linux发行版。例如安装`wsl --install Ubuntu-22.04`。此后等待一段时间后，会要求设置账户和密码(这里是普通账户)。<br><img src="/assets/image-20230522090418551.png" alt="image-20230522090418551" style="zoom:80%;border:1px solid black;border-radius:10px" align="left"/>
+6.   `wsl --list --online`查看可安装的Linux发行版。这里提一下，不带版本号的`ubuntu`可以更新更高版本，带版本号的不能更新到更高版本。<br><img src="/assets/image-20230522085754623.png" alt="image-20230522085754623" style="zoom:80%;border:1px solid black;border-radius:10px" />
+7.   运行`wsl --install <DistroName>`安装Linux发行版。例如安装`wsl --install Ubuntu-22.04`。此后等待一段时间后，会要求设置账户和密码(这里是普通账户)。<br><img src="/assets/image-20230522090418551.png" alt="image-20230522090418551" style="zoom:80%;border:1px solid black;border-radius:10px" />
 8.   之后就可以在菜单中发现`ubuntu`的踪迹了。
 9.   其实还默认创建了一个`root`用户，可以通过`sudo passwd root` 修改`root`用户密码。
 10.   安装完成后，windows系统会存在一条命令即`ubuntu `+`版本号去掉小数点`。例如我的是`ubuntu-22.04`，那么对应的命令就是`ubuntu2204`。使用`win+R`输入该命令回车即可打开子系统。
@@ -162,7 +162,7 @@ categories: 梦鱼的笔记
 
 7.    但是似乎每次启动都需执行，`sudo systemctl restart xrdp`。可以试试开机自启。
 
-8.    打开Windows自带的远程桌面工具可以远程操作。找不到就`win+s`搜索一下。注意端口号是`xrdp`而不是`ssh`的。<br><img src="/assets/image-20230522180339346.png" alt="image-20230522180339346" style="zoom:80%;border:1px solid black;border-radius:10px" align="left"/>
+8.    打开Windows自带的远程桌面工具可以远程操作。找不到就`win+s`搜索一下。注意端口号是`xrdp`而不是`ssh`的。<br><img src="/assets/image-20230522180339346.png" alt="image-20230522180339346" style="zoom:80%;border:1px solid black;border-radius:10px" />
 
 9.   输入账户、密码即可。
 
@@ -191,7 +191,7 @@ categories: 梦鱼的笔记
 
 2.   首先我们需要使用`apt install neofetch -y`安装`neofetch`。
 
-3.   运行`neofetch -L`显示logo，当然你也可以运行`neofetch`显示logo和系统信息。<br><img src="/assets/image-20230713010342927.png" alt="image-20230713010342927" style="zoom: 67%;border-radius:10px" align="left"/>
+3.   运行`neofetch -L`显示logo，当然你也可以运行`neofetch`显示logo和系统信息。<br><img src="/assets/image-20230713010342927.png" alt="image-20230713010342927" style="zoom: 67%;border-radius:10px" />
 
 4.   使用`gedit ~/.config/neofetch/config.conf ` 编辑配置文件，注销`#info "Packages" packages`，每次扫描包太费时间了！下面是一些其他配置:
 
@@ -366,7 +366,7 @@ categories: 梦鱼的笔记
 
       
 
-6.   关于logo颜色，不太会设置，直接运行`sudo apt install lolcat`安装lolcat，然后运行`neofetch | lolcat`就可以出现渐变色。（termux中使用`pkg install ruby && gem install lolcat`）<br><img src="/assets/image-20230713022728428.png" alt="image-20230713022728428" style="zoom:67%;border-radius:10px" align="left"/>
+6.   关于logo颜色，不太会设置，直接运行`sudo apt install lolcat`安装lolcat，然后运行`neofetch | lolcat`就可以出现渐变色。（termux中使用`pkg install ruby && gem install lolcat`）<br><img src="/assets/image-20230713022728428.png" alt="image-20230713022728428" style="zoom:67%;border-radius:10px" />
 
 7.   个人效果图，打算直接使用`neofetch -L | lolcat`不显示系统信息：
 
@@ -408,7 +408,7 @@ categories: 梦鱼的笔记
 >        1.   关于`figlet`参数：
 >             1.   `-f xx` 指明字体风格：`showfigfonts`命令可以查看字体风格列表。
 >             2.   `-c`设置居中显示。
->        2.   演示：`figlet I love python -f standard -c | lolcat`<br><img src="/assets/image-20230713032837530.png" alt="image-20230713032837530" style="zoom:80%;border-radius:20px;border:1px solid black;" align="left"/>
+>        2.   演示：`figlet I love python -f standard -c | lolcat`<br><img src="/assets/image-20230713032837530.png" alt="image-20230713032837530" style="zoom:80%;border-radius:20px;border:1px solid black;" />
 >   2.   除了使用`neofetch`展示终端信息外，还可以使用`apt install screenfetch`，具体配置略。
 
 
@@ -448,7 +448,7 @@ categories: 梦鱼的笔记
 
 5.   此后通过ssh登录`ssh 用户名@ip -p 端口号`即可(通过`-p`参数指定端口号)。注意这里的`ip`使用 `localhost`，`127.0.0.1`,``192.168.x.x` 等ip均可连接。
 
-6.   此外如果有需要，可以配置防火墙。设置中打开windows安全中心，选择：防火墙和网络保护-->高级设置。<br><img src="/assets/image-20230522102153404.png" alt="image-20230522102153404" style="zoom:80%;border:1px solid black;border-radius:10px" align="left"/>
+6.   此外如果有需要，可以配置防火墙。设置中打开windows安全中心，选择：防火墙和网络保护-->高级设置。<br><img src="/assets/image-20230522102153404.png" alt="image-20230522102153404" style="zoom:80%;border:1px solid black;border-radius:10px" />
 
 7.   选择入站规则，点击右侧新建。之后选择：端口-->tcp-->特定端口-->填入配置的ssh端口号。
 
@@ -598,7 +598,7 @@ categories: 梦鱼的笔记
 
 1.   说实话，下载速度还行，就不换了。他喵的安装`Gnone`出问题了。
 
-2.   首先运行命令确认一下`lsb_release -a`版本问题。其中`Codename`是版本代号。<br><img src="/assets/image-20230522121241334.png" alt="image-20230522121241334" style="zoom:80%;border:1px solid black;border-radius:10px" align="left"/>
+2.   首先运行命令确认一下`lsb_release -a`版本问题。其中`Codename`是版本代号。<br><img src="/assets/image-20230522121241334.png" alt="image-20230522121241334" style="zoom:80%;border:1px solid black;border-radius:10px" />
 
 3.   运行命令`sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak`，修改镜像源前先备份一下原来的镜像源。
 
@@ -699,7 +699,7 @@ categories: 梦鱼的笔记
 
 7.   运行`sudo vim /etc/apt/sources.list`编辑，使用上述内容替换。`:wq!`保存。
 
-8.   运行`sudo apt update`更新源，检查配置是否成功。<br><img src="/assets/image-20230522122736173.png" alt="image-20230522122736173" style="zoom:80%;border:1px solid black;border-radius:10px" align="left"/>
+8.   运行`sudo apt update`更新源，检查配置是否成功。<br><img src="/assets/image-20230522122736173.png" alt="image-20230522122736173" style="zoom:80%;border:1px solid black;border-radius:10px" />
 
 
 
@@ -969,7 +969,7 @@ command = genie -i #WSL 实例启动时运行的命令字符串。 此命令以�
 
 6.   运行并设置自启`sudo systemctl start aria2c && sudo systemctl enable aria2c`。
 
-7.   接下来安装web面板如 AriaNg、webui-aria2、yaaw 等，太麻烦。直接在浏览器装了个YAAM插件，开摆。<br><img src="/assets/image-20230707215233067.png" alt="image-20230707215233067" style="zoom:67%;border-redius:10px" align="left"/>
+7.   接下来安装web面板如 AriaNg、webui-aria2、yaaw 等，太麻烦。直接在浏览器装了个YAAM插件，开摆。<br><img src="/assets/image-20230707215233067.png" alt="image-20230707215233067" style="zoom:67%;border-redius:10px" />
 
      
 
@@ -1017,7 +1017,7 @@ source ~/.bashrc # 使配置生效
 
 ##### 安装anaconda
 
-1.   安装anaconda安装包，可以去[清华镜像](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/?C=M&O=A)下载对应linux版本的安装包。当然也可以使用`weget`命令下载。<br><img src="/assets/image-20230708134943654.png" alt="image-20230708134943654" style="zoom:67%;border-radius:10px" align="left"/>
+1.   安装anaconda安装包，可以去[清华镜像](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/?C=M&O=A)下载对应linux版本的安装包。当然也可以使用`weget`命令下载。<br><img src="/assets/image-20230708134943654.png" alt="image-20230708134943654" style="zoom:67%;border-radius:10px" />
 
 2.   前往安装包所在位置，进行安装。
 
@@ -1055,7 +1055,7 @@ source ~/.bashrc # 使配置生效
 
 6.   配置`pip`清华镜像源：`pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`。
 
-7.   好了，这就可以在pycharm中使用了。<br><img src="/assets/image-20230708142616613.png" alt="image-20230708142616613" style="zoom:80%;border-radius:10px" align="left"/><br><br><img src="/assets/image-20230708142723137.png" alt="image-20230708142723137" style="zoom:80%;border-radius:10px" align="left"/>
+7.   好了，这就可以在pycharm中使用了。<br><img src="/assets/image-20230708142616613.png" alt="image-20230708142616613" style="zoom:80%;border-radius:10px" /><br><br><img src="/assets/image-20230708142723137.png" alt="image-20230708142723137" style="zoom:80%;border-radius:10px" />
 
 
 
@@ -1170,7 +1170,7 @@ source ~/.bashrc # 使配置生效
 
 7.   好了，搞笑的部分来了，上述配置在`wsl`没啥用。为了正常连接使用`github`，我们直接让`wsl`连接主机的代理软件：
 
-     1.   windows下的代理软件要设置为允许LAN连接，也就是允许局域网连接。同时记住代理软件的端口号，并在防火墙中允许该clash内核。<br><img src="/assets/image-20230725173248778.png" alt="image-20230725173248778" style="zoom: 80%;border:1px solid black;border-radius:10px" align="left"/>
+     1.   windows下的代理软件要设置为允许LAN连接，也就是允许局域网连接。同时记住代理软件的端口号，并在防火墙中允许该clash内核。<br><img src="/assets/image-20230725173248778.png" alt="image-20230725173248778" style="zoom: 80%;border:1px solid black;border-radius:10px" />
 
      2.   其次要知道通过在Linux分发版中运行以下命令来获取主机的`IP`地址：`cat /etc/resolv.conf`，主机`ip`就在`nameserver`字段中。
 
@@ -1242,7 +1242,7 @@ source ~/.bashrc # 使配置生效
 
      6.   运行`proxy`启动代理，运行`curl www.google.com`测试代理是否配置成功。
 
-     7.   关于clash防火墙的问题：打开windows安全中心，选择防火墙和网络保护，点击运行应用通过防火墙，然后再弹出界面找到代理软件，勾选即可。<br><img src="/assets/image-20230725183842021.png" alt="image-20230725183842021" style="zoom: 67%;border:1px solid black;border-radius:10px;" align="left"/><br><img src="/assets/image-20230725183944238.png" alt="image-20230725183944238" style="zoom:80%;border:1px solid black;border-radius:10px;" align="left"/>
+     7.   关于clash防火墙的问题：打开windows安全中心，选择防火墙和网络保护，点击运行应用通过防火墙，然后再弹出界面找到代理软件，勾选即可。<br><img src="/assets/image-20230725183842021.png" alt="image-20230725183842021" style="zoom: 67%;border:1px solid black;border-radius:10px;" /><br><img src="/assets/image-20230725183944238.png" alt="image-20230725183944238" style="zoom:80%;border:1px solid black;border-radius:10px;" />
 
 
 
