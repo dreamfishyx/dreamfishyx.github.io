@@ -13,7 +13,7 @@ categories: 梦鱼的笔记
 #### 安装ubuntu子系统
 
 *   需要说明的是，安装windows子系统，需要开启`Hyper-V`，启动方式参考网上教程。
-*   检查是否开启，打开任务管理器，选择任务一栏。<br><img src="/assets/image-20230522083015941.png" alt="image-20230522083015941" style="zoom:80%;border:1px solid black;border-radius:10px" align="left"/>
+*   检查是否开启，打开任务管理器，选择任务一栏。<br><img src="/assets/image-20230522083015941.png" alt="image-20230522083015941" style="zoom:80%;border:1px solid black;border-radius:10px" />
 *   但是，开启`Hyper-V`可能导致一些旧版本VMware等虚拟机无法使用，但是最新的虚拟机已经支持`Hyper-V`。
 
 >   开启虚拟化：

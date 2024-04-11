@@ -19,7 +19,7 @@ categories: 梦鱼的笔记
 >
 >        2.   cmd输入`wt/f`也可进入专注模式(`win+R`也行)。
 >
->        3.   直接在设置中为切换专注模式设置一个快捷键，例如`ALT+Z`即可。<br><img src="/assets/image-20230804224101642.png" alt="image-20230804224101642" style="zoom:80%;border: 1px solid black; border-radius: 10px;" align="left" />
+>        3.   直接在设置中为切换专注模式设置一个快捷键，例如`ALT+Z`即可。<br><img src="/assets/image-20230804224101642.png" alt="image-20230804224101642" style="zoom:80%;border: 1px solid black; border-radius: 10px;"  />
 >
 >   
 
