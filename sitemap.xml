@@ -4,7 +4,7 @@
   <url>
     <loc>https://www.dreamfish.cc/2024/04/07/wsl%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE/</loc>
     
-    <lastmod>2024-04-12</lastmod>
+    <lastmod>2024-04-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,7 @@
   <url>
     <loc>https://www.dreamfish.cc/2024/04/07/windows%E5%92%8Cwsl%E7%BE%8E%E5%8C%96/</loc>
     
-    <lastmod>2024-04-12</lastmod>
+    <lastmod>2024-04-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +22,7 @@
   <url>
     <loc>https://www.dreamfish.cc/2024/04/11/%E4%BA%8C%E5%88%86%E6%B3%95/</loc>
     
-    <lastmod>2024-04-12</lastmod>
+    <lastmod>2024-04-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -127,19 +127,10 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://www.dreamfish.cc/2024/04/06/hello-world/</loc>
-    
-    <lastmod>2024-04-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://www.dreamfish.cc/</loc>
-    <lastmod>2024-04-12</lastmod>
+    <lastmod>2024-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -147,28 +138,28 @@
   
   <url>
     <loc>https://www.dreamfish.cc/tags/linux/</loc>
-    <lastmod>2024-04-12</lastmod>
+    <lastmod>2024-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.dreamfish.cc/tags/window/</loc>
-    <lastmod>2024-04-12</lastmod>
+    <lastmod>2024-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.dreamfish.cc/tags/wsl/</loc>
-    <lastmod>2024-04-12</lastmod>
+    <lastmod>2024-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.dreamfish.cc/tags/ds/</loc>
-    <lastmod>2024-04-12</lastmod>
+    <lastmod>2024-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -177,7 +168,7 @@
   
   <url>
     <loc>https://www.dreamfish.cc/categories/%E6%A2%A6%E9%B1%BC%E7%9A%84%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2024-04-12</lastmod>
+    <lastmod>2024-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
