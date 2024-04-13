@@ -19,7 +19,7 @@ categories: 梦鱼的笔记
 >
 >        2.   cmd输入`wt/f`也可进入专注模式(`win+R`也行)。
 >
->        3.   直接在设置中为切换专注模式设置一个快捷键，例如`ALT+Z`即可。<br><img src="/assets/image-20230804224101642.png" alt="image-20230804224101642" style="zoom:80%;  />
+>        3.   直接在设置中为切换专注模式设置一个快捷键，例如`ALT+Z`即可。<br><img src="/assets/image-20230804224101642.png" alt="image-20230804224101642"/>
 >
 >   
 
@@ -33,15 +33,15 @@ categories: 梦鱼的笔记
 
 1.   `winget install JanDeDobbeleer.OhMyPosh -s winget --location xxx ` 安装`oh-my-posh`到指定位置。当然你也可以使用命令`winget upgrade JanDeDobbeleer.OhMyPosh -s winget --location xxx`更新。
 
-1.   配置`oh-my-posh`环境。<br><img src="/assets/image-20230802210927729.png" alt="image-20230802210927729" style="zoom:80%; " />
+1.   配置`oh-my-posh`环境。<br><img src="/assets/image-20230802210927729.png" alt="image-20230802210927729"  />
 
 1.   安装推荐字体进入[Nerd Fonts](https://www.nerdfonts.com/)随便下载一款字体（但个人推荐`FiraCode Nerd Font`，`Caskaydia Cove Nerd Font`也还行），并在windows上安装。
 
-1.   终端下使用 `CTRL + SHIFT + ,`打开配置文件，配置全局字体。当然也可以直接在 `windows terminal`设置中配置字体。(更推荐`FiraCode Nerd Font`)。<br><img src="/assets/image-20230523103456652.png" alt="image-20230523103456652" style="zoom:67%;"  />
+1.   终端下使用 `CTRL + SHIFT + ,`打开配置文件，配置全局字体。当然也可以直接在 `windows terminal`设置中配置字体。(更推荐`FiraCode Nerd Font`)。<br><img src="/assets/image-20230523103456652.png" alt="image-20230523103456652" />
 
      
 
-1.   此外建议在`设置->呈现中`开启`windows terminal`文本呈现器。此外在`设置->外观`中开启亚力克材料效果。在各个配置文件的`外观->透明度`中启用亚力克材料。<br><img src="/assets/image-20230522230645017.png" alt="image-20230522230645017" style="zoom:80%; " /><br><img src="/assets/image-20240407214316980.png" alt="image-20230523115429689" style="zoom:80%; " />
+1.   此外建议在`设置->呈现中`开启`windows terminal`文本呈现器。此外在`设置->外观`中开启亚力克材料效果。在各个配置文件的`外观->透明度`中启用亚力克材料。<br><img src="/assets/image-20230522230645017.png" alt="image-20230522230645017"  /><br><img src="/assets/image-20240407214316980.png" alt="image-20230523115429689"  />
 
 1.   powershell运行`get-Poshthemes`查看所有主题。
 
@@ -51,7 +51,7 @@ categories: 梦鱼的笔记
      oh-my-posh --init --shell pwsh --config D:\Environment\ohmyposh\themes\neko.omp.json | Invoke-Expression
      ```
 
-     <br><img src="/assets/image-20230522223158710.png" alt="image-20230522223158710" style="zoom:67%; "/>
+     <br><img src="/assets/image-20230522223158710.png" alt="image-20230522223158710" />
 
 1.   运行`. $profile`使配置生效。
 
@@ -70,7 +70,7 @@ categories: 梦鱼的笔记
 
 1.   运行`. $profile`使配置生效。
 
-1.   强调一下window终端下的一个配置，开启自动调整无法区分的文本的亮度可能会导致某些主题无法正常显示：<br><img src="/assets/image-20230708173601210.png" alt="image-20230708173601210" style="zoom:67%;" />
+1.   强调一下window终端下的一个配置，开启自动调整无法区分的文本的亮度可能会导致某些主题无法正常显示：<br><img src="/assets/image-20230708173601210.png" alt="image-20230708173601210"  />
 
      
 
@@ -102,7 +102,7 @@ categories: 梦鱼的笔记
 
 ##### 配色
 
-1.   自定义配色很繁琐，而且很好费时间，最好的方法是用别人做好的配色。可以在github项目 [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes))里找，有两百多方案，先在 Screenshots 里挑选好颜色，然后到 `windwosterminal` 目录对应的 json 文件复制样式。<br><img src="/assets/image-20230802205915724.png" alt="image-20230802205915724" style="zoom:80%;" />
+1.   自定义配色很繁琐，而且很好费时间，最好的方法是用别人做好的配色。可以在github项目 [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes))里找，有两百多方案，先在 Screenshots 里挑选好颜色，然后到 `windwosterminal` 目录对应的 json 文件复制样式。<br><img src="/assets/image-20230802205915724.png" alt="image-20230802205915724"  />
 
 2.   将样式粘贴到windwos terminal配置文件的`schemes`数组中即可。
 
@@ -155,7 +155,7 @@ categories: 梦鱼的笔记
      gsudo.exe %SystemRoot%\System32\cmd.exe -nologo
      ```
 
-     <br><img src="/assets/image-20230523114847261.png" alt="image-20230523114847261" style="zoom:80%;" />
+     <br><img src="/assets/image-20230523114847261.png" alt="image-20230523114847261"  />
 
 
 
