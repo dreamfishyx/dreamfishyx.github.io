@@ -2,6 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.dreamsea.top/live2d-widget/package.json</loc>
+    
+    <lastmod>2024-09-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.dreamsea.top/live2d-widget/waifu-tips.json</loc>
+    
+    <lastmod>2024-09-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.dreamsea.top/live2d-widget/README.en.html</loc>
+    
+    <lastmod>2024-09-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.dreamsea.top/live2d-widget/README.html</loc>
+    
+    <lastmod>2024-09-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.dreamsea.top/live2d-widget/demo/demo.html</loc>
+    
+    <lastmod>2024-09-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.dreamsea.top/live2d-widget/demo/login.html</loc>
+    
+    <lastmod>2024-09-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.dreamsea.top/book/index.html</loc>
     
     <lastmod>2024-09-08</lastmod>
