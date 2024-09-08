@@ -3,7 +3,8 @@
 # --------------------------------------
 
 nav:
-  logo: https://cdn.jsdelivr.net/gh/dreamfishyx/pictures@main/img/2024-04-07-12-37-01-dd97e5.ico
+  #logo: https://cdn.jsdelivr.net/gh/dreamfishyx/pictures@main/img/2024-04-07-12-37-01-dd97e5.ico
+  logo: 
   display_title: true
   fixed: false # fixed navigation bar
 
@@ -16,14 +17,14 @@ menu:
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
-  生活 ||fas fa-heartbeat:
+  娱乐||fas fa-heartbeat:
     音乐: /music/ || fas fa-music
     书籍: /book/ || fas fa-book
     壁纸: /wallpaper/ || fas fa-image
     电影: /movie/ || fas fa-video
   树洞: /artitalk/ || fa fa-comments
   友链: /link/ || fas fa-link
-  关于: /about/ || fas fa-fish
+  关于: /about/ || fa-brands fa-meta
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -31,7 +32,7 @@ menu:
 highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
-highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+highlight_shrink: none # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 highlight_height_limit: 200 # unit: px
 code_word_wrap: true
 
@@ -252,7 +253,7 @@ aside:
   card_announcement:
     enable: true
     content: 
-      - 欢迎来到梦之海，树洞内容国内暂时无法访问(如果不会magic)。
+      - 你好,认识一下,我是梦鱼;博客看累了就去娱乐里听听音乐吧。
      
   card_recent_post:
     enable: true
@@ -934,9 +935,10 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+    - <script src="/live2d-widget/autoload.js"></script>
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-  - <div class="aplayer no-destroy" data-id="9700462336" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div>
 
 # CDN
 # Don't modify the following settings unless you know how they work

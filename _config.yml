@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Dreamfish
+title: Dream sea
 subtitle: ''
 description: '人生天地间，忽如远行客。'
 keywords: 
@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.dreamfish.cc/
+url: https://blog.dreamsea.top/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,7 +102,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repository: git@github.com:dreamfishyx/dreamfishyx.github.io.git
+  repository: 'git@github.com:dreamfishyx/dreamfishyx.github.io.git'
   branch: main
 
 markdown:
@@ -134,6 +134,7 @@ artitalk:
     path: 
     js: https://cdn.jsdelivr.net/gh/dreamfishyx/mycdn/js/artitalk.js
     option:
+      serverURL: 'https://leancloud.dreamfish.cc'
       avatarPla: 'https://cdn.jsdelivr.net/gh/dreamfishyx/pictures@main/img/2024-04-06-16-47-19-d291bc.jpg'
       shuoPla: "说点什么吧~"
       atEmoji: 
@@ -160,15 +161,5 @@ baidusitemap:
   path: baidusitemap.xml
 
 live2d:
-	enable: true
-	scriptFrom: local
-	model: 
-		use: live2d-widget-model-shizuku 
-	display: 
-		position: right  
-		width: 150       
-		height: 300  
-    hOffset: 10 
-    vOffset: 300   
-	mobile: 
-		show: false      
+  enable: true
+

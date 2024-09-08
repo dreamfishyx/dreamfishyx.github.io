@@ -3,8 +3,6 @@
 - var hideAside = !theme.aside.enable || page.aside === false ? 'hide-aside' : ''
 - var pageType = is_post() ? 'post' : 'page'
 
-
-
 doctype html
 html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside)
   head
@@ -47,5 +45,3 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
 
     include ./rightside.pug
     include ./additional-js.pug
-
-
